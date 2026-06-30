@@ -114,7 +114,7 @@ function hostelCard(h){
     </div>
     <div class="card-body">
       <h3 class="card-name">${h.name}</h3>
-      <div class="card-rating">${starSvg}<span class="num">${h.rating.toFixed(1)}</span><span class="reviews">${h.reviews.toLocaleString()}</span></div>
+      <div class="card-rating">${starSvg}<span class="num">${h.rating.toFixed(1)}</span><span class="reviews">(${h.reviews.toLocaleString()})</span></div>
       <div class="card-price">From <b>${h.price}</b></div>
     </div>
   </article>`;
@@ -124,7 +124,7 @@ function bestCard(h){
     <div class="card-img"><img src="${A}${h.image}" alt="${h.name}">${dots}</div>
     <div class="card-body">
       <h3 class="card-name">${h.name}</h3>
-      <div class="card-rating">${starSvg}<span class="num">${h.rating.toFixed(1)}</span><span class="reviews">${h.reviews.toLocaleString()}</span></div>
+      <div class="card-rating">${starSvg}<span class="num">${h.rating.toFixed(1)}</span><span class="reviews">(${h.reviews.toLocaleString()})</span></div>
       <div class="card-price">From <b>${h.price}</b></div>
     </div>
   </article>`;

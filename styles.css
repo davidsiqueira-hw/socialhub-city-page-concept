@@ -168,8 +168,8 @@ a{text-decoration:none; color:inherit;}
 .card-body{display:flex; flex-direction:column; gap:8px; padding:16px; flex:1;}
 .card-name{font-family:'Poppins',sans-serif; font-weight:700; font-size:20px; line-height:26px; letter-spacing:-.1px; margin:0;}
 .card-rating{display:flex; align-items:center; gap:4px;}
-.card-rating .num{font-family:'Inter',sans-serif; font-weight:700; font-size:16px;}
-.card-rating .reviews{font-family:'Inter',sans-serif; font-weight:400; font-size:14px; color:var(--muted);}
+.card-rating .num{font-family:'Poppins',sans-serif; font-weight:700; font-size:20px;}
+.card-rating .reviews{font-family:'Inter',sans-serif; font-weight:400; font-size:16px; color:var(--muted);}
 .card-price{text-align:right; font-size:14px; color:var(--muted);}
 .card-price b{font-size:18px; color:var(--ink); margin-left:4px;}
 .event-rank{position:absolute; left:0; top:24px; z-index:2;}
