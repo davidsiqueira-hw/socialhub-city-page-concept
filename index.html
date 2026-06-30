@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hostelworld Social Hub</title>
+<meta name="description" content="Connect with fellow travelers through a responsive social hub that showcases hostels, events, and user-generated content for an engaging travel experience." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <a href="#" class="logo" aria-label="Hostelworld">
+    <svg width="270" height="32" viewBox="0 0 270 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M158.681 20.3055H149.695V6.424C149.695 6.12707 149.472 5.90437 149.175 5.90437H143.457C143.16 5.90437 142.937 6.12707 142.937 6.424V25.5018C142.937 25.7987 143.16 26.0214 143.457 26.0214H158.606C158.903 26.0214 159.126 25.7987 159.126 25.5018V20.7509C159.2 20.5282 158.978 20.3055 158.681 20.3055ZM223.435 13.5503C223.435 14.8123 222.47 15.4804 220.836 15.4804H217.94V11.5461H220.91C222.47 11.5461 223.435 12.2141 223.435 13.5503ZM226.48 19.7116C226.331 19.489 226.406 19.192 226.628 18.9693C228.782 17.7816 230.119 15.7773 230.119 13.1049V13.0307C230.119 10.9522 229.45 9.46754 228.262 8.27981C226.851 6.86939 224.549 5.9786 220.985 5.9786H211.776C211.479 5.9786 211.257 6.2013 211.257 6.49823V25.576C211.257 25.873 211.479 26.0957 211.776 26.0957H217.495C217.792 26.0957 218.014 25.873 218.014 25.576V20.3055H219.425L223.064 25.7987C223.138 25.9472 223.287 26.0214 223.51 26.0214H229.97C230.416 26.0214 230.639 25.576 230.416 25.2049L226.48 19.7116ZM202.791 16.0742C202.791 18.4497 201.157 20.5282 198.632 20.5282C196.033 20.5282 194.4 18.3755 194.4 16V15.9258C194.4 13.5503 196.033 11.4718 198.558 11.4718C201.083 11.4718 202.791 13.6246 202.791 16.0742ZM198.558 5.5332C192.32 5.5332 187.568 10.2099 187.568 16V16.0742C187.568 21.9386 192.32 26.5411 198.558 26.5411C204.796 26.5411 209.549 21.8644 209.549 16.0742V16C209.549 10.1356 204.796 5.5332 198.558 5.5332ZM140.71 20.5282H130.536V20.0086V18.8209V18.3012H139.893C140.19 18.3012 140.413 18.0785 140.413 17.7816V13.9215C140.413 13.6246 140.19 13.4019 139.893 13.4019H130.536V11.3976H140.561C140.858 11.3976 141.081 11.1749 141.081 10.878V6.34976C141.081 6.05283 140.858 5.83013 140.561 5.83013H124.447C124.15 5.83013 123.927 6.05283 123.927 6.34976V25.4276C123.927 25.7245 124.15 25.9472 124.447 25.9472H140.71C141.007 25.9472 141.23 25.7245 141.23 25.4276V20.8994C141.23 20.7509 140.932 20.5282 140.71 20.5282ZM248.015 20.3055H239.03V6.424C239.03 6.12707 238.807 5.90437 238.51 5.90437H232.792C232.495 5.90437 232.272 6.12707 232.272 6.424V25.5018C232.272 25.7987 232.495 26.0214 232.792 26.0214H247.941C248.238 26.0214 248.461 25.7987 248.461 25.5018V20.7509C248.535 20.5282 248.312 20.3055 248.015 20.3055ZM187.791 5.90437H181.924C181.701 5.90437 181.478 6.05283 181.404 6.27553L179.102 13.9957C178.954 14.4411 178.285 14.5154 178.137 13.9957L175.538 6.2013C175.463 5.9786 175.241 5.83013 175.092 5.83013H170.042C169.82 5.83013 169.597 5.9786 169.523 6.2013L166.923 13.9957C166.775 14.4411 166.107 14.4411 165.958 13.9957L163.656 6.27553C163.582 6.05283 163.359 5.90437 163.136 5.90437H157.195C156.898 5.90437 156.676 6.12707 156.676 6.424C156.676 6.49823 156.676 6.49823 156.676 6.57246L162.913 25.7987C162.988 26.0214 163.21 26.1699 163.433 26.1699H168.557C168.78 26.1699 168.928 26.0214 169.003 25.7987L171.973 17.4847C172.122 17.0393 172.79 17.0393 172.939 17.4847L175.909 25.7987C175.983 26.0214 176.206 26.1699 176.354 26.1699H181.478C181.701 26.1699 181.924 26.0214 181.998 25.7987L188.236 6.57246C188.31 6.27553 188.162 6.05283 187.939 5.90437C187.865 5.9786 187.791 5.90437 187.791 5.90437ZM58.2811 5.90437H52.5631C52.2661 5.90437 52.0433 6.12707 52.0433 6.424V13.0307H45.8797V6.424C45.8797 6.12707 45.6569 5.90437 45.3599 5.90437H39.6419C39.3448 5.90437 39.1221 6.12707 39.1221 6.424V25.5018C39.1221 25.7987 39.3448 26.0214 39.6419 26.0214H45.3599C45.6569 26.0214 45.8797 25.7987 45.8797 25.5018V18.8209H52.0433V25.5018C52.0433 25.7987 52.2661 26.0214 52.5631 26.0214H58.2811C58.5782 26.0214 58.801 25.7987 58.801 25.5018V6.424C58.801 6.12707 58.5782 5.90437 58.2811 5.90437ZM263.09 16C263.09 18.8951 261.085 20.157 258.04 20.157H256.927V11.7687H258.04C261.085 11.7687 263.09 13.0307 263.09 16ZM257.892 5.90437H250.689C250.392 5.90437 250.169 6.12707 250.169 6.424V25.5018C250.169 25.7987 250.392 26.0214 250.689 26.0214H257.669C265.838 26.0214 269.922 21.7902 269.922 15.8515V15.7773C269.848 9.8387 265.838 5.90437 257.892 5.90437ZM93.5546 13.0307C91.4011 12.6595 90.8813 12.2884 90.8813 11.7687V11.6945C90.8813 11.1749 91.3268 10.878 92.3665 10.878C94.0744 10.878 96.228 11.3976 98.0102 12.5853C98.233 12.7338 98.53 12.6595 98.6786 12.4368L101.352 8.72521C101.5 8.50251 101.426 8.20558 101.203 7.98288C98.9756 6.34976 96.1537 5.5332 92.515 5.5332C86.9455 5.5332 83.9751 8.50251 83.9751 12.2884V12.3626C83.9751 16.5939 87.9109 17.9301 92.4407 18.8209C94.5943 19.2663 95.2626 19.5632 95.2626 20.157V20.2313C95.2626 20.7509 94.7428 21.1221 93.5546 21.1221C91.3268 21.1221 88.9505 20.5282 86.8712 19.0436C86.6484 18.8951 86.3514 18.9693 86.2029 19.1178L83.2325 22.6067C83.084 22.8294 83.084 23.1264 83.3067 23.3491C85.8316 25.3533 89.3218 26.3926 93.2576 26.3926C98.6786 26.3926 102.169 23.7944 102.169 19.5632V19.489C102.169 15.4804 98.6786 13.9957 93.5546 13.0307ZM121.254 5.90437H103.728C103.431 5.90437 103.208 6.12707 103.208 6.424V11.1007C103.208 11.3976 103.431 11.6203 103.728 11.6203H109.149V25.5018C109.149 25.7987 109.372 26.0214 109.669 26.0214H115.387C115.684 26.0214 115.907 25.7987 115.907 25.5018V11.6203H121.328C121.625 11.6203 121.848 11.3976 121.848 11.1007V6.424C121.773 6.12707 121.551 5.90437 121.254 5.90437ZM75.8065 16.0742C75.8065 18.4497 74.1728 20.5282 71.6479 20.5282C69.0488 20.5282 67.4151 18.3755 67.4151 16V15.9258C67.4151 13.5503 69.0488 11.4718 71.5737 11.4718C74.1728 11.4718 75.8065 13.6246 75.8065 16.0742C75.8065 16.0742 75.8065 16 75.8065 16.0742ZM71.6479 5.5332C65.4101 5.5332 60.6575 10.2099 60.6575 16V16.0742C60.6575 21.9386 65.4101 26.5411 71.6479 26.5411C77.8858 26.5411 82.6384 21.8644 82.6384 16.0742V16C82.6384 10.1356 77.8858 5.5332 71.6479 5.5332Z" fill="#F25621"/>
+    <path d="M32.0118 27.546C32.0118 30.0128 30.0239 32 27.5562 32H4.4556C1.98788 32 0 30.0128 0 27.546V4.45396C0 1.98715 1.98788 0 4.4556 0H27.5562C30.0239 0 32.0118 1.98715 32.0118 4.45396V27.546Z" fill="#F25621"/>
+    <path d="M26.4933 5.10494H20.0841C19.8442 5.10494 19.6385 5.31051 19.6385 5.55034V11.272H20.3583C20.4611 11.272 20.5297 11.3747 20.5297 11.4775C20.5297 11.5118 20.5297 11.5461 20.4954 11.5803L16.4168 15.7259C16.2797 15.8972 16.2797 16.1028 16.4168 16.2741L20.5297 20.454C20.5639 20.4882 20.5639 20.5225 20.5639 20.5568C20.5639 20.6595 20.4954 20.7281 20.3926 20.7623H19.6728V26.484C19.6728 26.7238 19.8785 26.9293 20.1184 26.9293H26.5276C26.7675 26.9293 26.9731 26.7238 26.9731 26.484V5.51608C26.9046 5.27625 26.7332 5.10494 26.4933 5.10494ZM11.5499 11.5803C11.4814 11.5118 11.4814 11.3747 11.5499 11.3062C11.5842 11.272 11.6185 11.2377 11.687 11.2377H12.4068V5.51608C12.4068 5.27625 12.2011 5.07068 11.9612 5.07068H5.552C5.31209 5.07068 5.10645 5.27625 5.10645 5.51608V26.4497C5.10645 26.6895 5.31209 26.8951 5.552 26.8951H11.9612C12.2011 26.8951 12.4068 26.6895 12.4068 26.4497V20.7623H11.687C11.5842 20.7623 11.4814 20.6595 11.5157 20.5568C11.5157 20.5225 11.5499 20.454 11.5842 20.4197L15.6628 16.2741C15.7999 16.1028 15.7999 15.8972 15.6628 15.7259L11.5499 11.5803Z" fill="white"/>
+    </svg>
+  </a>
+  <div class="header-actions">
+    <button class="icon-btn" aria-label="Account">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="5" r="3" stroke="#121417" stroke-width="1.4"/><path d="M2.5 14c0-3 2.5-5 5.5-5s5.5 2 5.5 5" stroke="#121417" stroke-width="1.4" fill="none"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Menu">
+      <span class="burger"><i></i><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-image">
+    <img src="assets/a5cca41f01ab8c124cb087b216271d1f71524548.png" alt="Barcelona" class="hero-bg" />
+    <div class="hero-overlay"></div>
+    <img src="assets/421fcc11c2ff93f3472aac53bbc371e049d06306.png" alt="" class="hero-bg" />
+    <div class="city-social-overlay">
+      <div class="overlay-row">
+        <span class="avatar-circle z3"><img src="assets/6146bc55d69b4f7e78b72635a344c3caf2cf7fed.png" alt=""></span>
+        <span class="avatar-circle z2"><img src="assets/9a6c99914b6da3f4744cf31d0a2cfd4c05625f2e.png" alt=""></span>
+        <span class="avatar-circle z1"><img src="assets/4e2b27f48cd16f9f56051a7f4c836b3b60b3c286.png" alt=""></span>
+        <span class="pill pill-purple">570+ Hostelworld travellers</span>
+      </div>
+      <div class="overlay-row">
+        <span class="avatar-square z3"><img src="assets/854e6b5d9096ed1eb37bfd0bd307bc1daa357221.png" alt=""></span>
+        <span class="avatar-square z2"><img src="assets/3b8cb60c001eec573ed3adf0da63cc6747a6f9ff.png" alt=""></span>
+        <span class="avatar-square z1"><img src="assets/d77d2ead52ff94b86cde2690ef9147f5616b02b8.png" alt=""></span>
+        <span class="pill pill-purple pill-sm">247 events</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-text">
+    <span class="eyebrow">SOCIAL TRAVEL HUB</span>
+    <h1 class="hero-title">Social Travel in <span class="orange">Barcelona</span></h1>
+    <p class="hero-body">One of the most social cities for solo travellers. Beach days, late-night energy, big cultural moments and walkable neighbourhoods make meeting people feel effortless — from hostel breakfasts to rooftop drinks.</p>
+    <p class="hero-body-bold">Hostelworld has over <span class="orange">3 million</span> social members, <span class="orange">19,000</span> of which are visiting Barcelona in the next month.</p>
+    <div class="hero-buttons">
+      <button class="btn btn-primary">Explore hostels <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="btn btn-outline">See events</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee-inner" id="marquee">
+    <!-- filled by JS -->
+  </div>
+</div>
+
+<!-- ============ FACTS ============ -->
+<section class="facts">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">The facts about Barcelona</h2>
+      <p class="section-sub">Who's here, where they're from, and how social the city really is.</p>
+    </div>
+
+    <div class="facts-row">
+      <div class="fact-big card-white">
+        <div class="fact-big-top">
+          <span class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16"><path fill="#F25621" fill-rule="evenodd" d="M5.5 6.25a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5ZM2.25 8a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm9.25-5.75a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5ZM8.25 4a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.5 13.25c-1.28 0-2.403.82-2.788 1.985l-1.424-.47c.59-1.788 2.294-3.015 4.212-3.015 1.918 0 3.622 1.227 4.212 3.015l-1.424.47C7.903 14.071 6.78 13.25 5.5 13.25Zm6-4c-.488 0-.954.12-1.365.333l-.69-1.332A4.464 4.464 0 0 1 11.5 7.75c1.918 0 3.622 1.227 4.212 3.015l-1.424.47C13.903 10.071 12.78 9.25 11.5 9.25Z" clip-rule="evenodd"/></svg>
+          </span>
+          <span class="updated-badge">
+            <span class="pulse-dot"><span></span><span></span><span></span></span>
+            Updated Now
+          </span>
+        </div>
+        <div>
+          <div class="stat-xl">278</div>
+          <p class="stat-label-lg">Travellers in Barcelona hostel chat room right now</p>
+        </div>
+      </div>
+
+      <div class="fact-col">
+        <div class="fact-col-top">
+          <div class="card-outline">
+            <span class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16"><path fill="#F25621" d="M3.379 5.007c.654.968 1.846 1.455 2.986 1.489 1.156.033 2.419-.392 3.23-1.453l-1.19-.912c-.458.598-1.21.888-1.996.865-.801-.023-1.475-.366-1.788-.829l-1.242.84Z"/><path fill="#F25621" fill-rule="evenodd" d="M12.624 6.277c.711.02 1.474-.003 2.171.162a.968.968 0 0 1 .698.596c.142.354.17.741.2 1.118.124 1.547.17 3.233-.125 4.76-.06.31-.173.626-.46.796-.317.189-.712.244-1.072.294h-.001c.001.206 0 .435-.012.636-.05.921-.775 1.324-1.62.848-.726-.408-1.391-.912-2.056-1.41a132.61 132.61 0 0 1-1.84-.056 42.851 42.851 0 0 1-1.516-.082c-.848-.066-1.472-.186-1.615-1.134-.085-.57-.12-1.15-.13-1.731-.38.277-.768.541-1.171.778-.388.229-.871.456-1.299.195-.382-.233-.419-.694-.44-1.1a15.52 15.52 0 0 1-.012-.97c-.592-.079-1.3-.158-1.678-.68C.374 8.923.262 6.477.252 5.31.24 4.145.207 2.965.437 1.816c.11-.554.378-.949.943-1.062C3.034.424 4.836.54 6.51.542c1.849.002 3.683.05 4.638.158l.01.001c.327.037.696.08.946.312.232.217.304.538.352.84.17 1.064.17 2.165.17 3.242 0 .394 0 .788-.002 1.182ZM1.892 2.192c-.331 1.948-.28 4.245.036 6.195l.01.002c.631.148 1.289.174 1.933.221-.022.535-.047 1.07-.049 1.604 0 .016 1.551-1.122 2.22-1.654 1.646-.033 3.318-.03 4.955-.224.137-1.035.128-2.082.128-3.125 0-1.003 0-2.024-.135-3.02h-.012c-.806-.092-2.637-.147-4.47-.15-1.53 0-3.093-.033-4.616.151ZM6.84 12.42c-.089-.785-.1-1.583-.091-2.375 1.592-.038 3.339.078 4.897-.296.512-.123.73-.542.81-1.019.053-.315.09-.635.115-.956.529.012 1.058.032 1.583.084.108.76.103 1.54.096 2.305-.008.767-.02 1.545-.128 2.307-.537.105-1.088.126-1.633.164.017.388.037.775.044 1.163-.57-.384-1.12-.795-1.667-1.211-.767-.015-1.533-.034-2.298-.064a33.766 33.766 0 0 1-1.728-.102Z" clip-rule="evenodd"/></svg></span>
+            <p class="stat-label">Messages posted in last 24h</p>
+            <div class="stat-md">92</div>
+          </div>
+          <div class="card-outline">
+            <span class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16"><path fill="#F25621" fill-rule="evenodd" d="M6.25 2.15v-.275a1.75 1.75 0 1 1 3.5 0v.273c.428.01.87-.004 1.293.068V.997h1.5V2.96a3.01 3.01 0 0 1 .957 2.166v.025l.044 1.28c.896.192 1.519.873 1.823 1.793.38 1.144.533 2.68.533 3.777 0 1.347-1.364 1.728-2.46 1.749-.51.992-1.56 1.72-2.68 1.789a41.899 41.899 0 0 1-5.505-.007c-1.12-.069-2.18-.787-2.694-1.782-1.097-.02-2.46-.402-2.46-1.749 0-1.096.153-2.633.532-3.777.305-.92.927-1.601 1.823-1.793L2.5 5.152v-.027a3.007 3.007 0 0 1 1.25-2.404V.997h1.5v1.186c.339-.023.675-.025 1-.034Zm1.5-.275a.25.25 0 0 1 .5 0v.25h-.5v-.25ZM2.4 8.086c-.876.816-.8 2.849-.8 3.914 0 .178.32.24.658.256l.142-4.17Zm11.342 4.17-.142-4.17c.876.816.8 2.849.8 3.914 0 .178-.32.24-.658.256ZM3.871 8.968l-.12 3.543c.008.798.84 1.476 1.596 1.523 1.894.116 3.43.124 5.32.007.756-.047 1.575-.739 1.583-1.53l-.123-3.61c-.87 1.115-1.966 1.619-3.377 1.72v1.504h-1.5v-1.52c-1.351-.126-2.521-.561-3.38-1.637ZM12 5.148c-.01 1.425-.893 2.91-1.803 3.573-.396.29-.97.354-1.447.396v-.992h-1.5v.972c-.658-.074-1.204-.227-1.497-.408C4.636 8 4.009 6.414 4 5.15c.008-.803.632-1.444 1.397-1.472 1.86-.069 3.371-.07 5.209-.001.764.028 1.386.668 1.394 1.472Z" clip-rule="evenodd"/></svg></span>
+            <p class="stat-label">Solo travellers in Barcelona</p>
+            <div class="stat-md">72%</div>
+            <p class="stat-sub">of all travellers</p>
+          </div>
+        </div>
+        <div class="card-outline card-row">
+          <span class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16"><path fill="#F25621" d="M7 8V6H5.5v2H7Zm0 2v2H5.5v-2H7Zm3.5-2V6H9v2h1.5Z"/><path fill="#F25621" fill-rule="evenodd" d="M12 0a.75.75 0 0 1 .624.334l2 3A.75.75 0 0 1 14 4.5h-.25v9.256c.37-.07.727-.148 1.068-.234l.364 1.456c-4.12 1.03-10.244 1.03-14.364 0l.364-1.456c.341.086.698.164 1.068.234V4.5H2a.75.75 0 0 1-.624-1.166l2-3A.75.75 0 0 1 4 0h8ZM3.75 4.5v9.492a34.6 34.6 0 0 0 5.25.244V11h1.5v3.164c.597-.042 1.183-.1 1.75-.172V4.5h-8.5ZM12.599 3l-1-1.5H4.4L3.4 3h9.2Z" clip-rule="evenodd"/></svg></span>
+          <div>
+            <p class="stat-label">Busiest Barcelona hostel chat room</p>
+            <div class="stat-name">Yeah Hostel Barcelona</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="facts-row">
+      <div class="card-outline card-row fact-activity">
+        <span class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16"><path fill="#F25621" fill-rule="evenodd" d="M7.435.185c-.457.036-1.014.12-1.397.531-.387.415-.426.977-.424 1.432l.002.466a2.018 2.018 0 0 0-.47.07 1.721 1.721 0 0 0-1.096.871 2.224 2.224 0 0 0-.207.58c-.436-.121-.899-.054-1.344.142-.499.22-.843.584-1.027 1.041-.173.432-.184.895-.135 1.312.077.642.32 1.323.571 1.914C1.204 8.67.546 9.112.27 9.788c-.221.544-.176 1.16.117 1.78.69 1.46 2.051 2.647 3.555 3.4 1.505.754 3.26 1.128 4.81.837 1.282-.24 2.498-1.067 3.355-2.1.374-.45.698-.961.93-1.507.755-.218 1.305-.788 1.641-1.57.333-.774.544-1.6.754-2.424.106-.413.211-.825.332-1.23.3-1.01-.048-2.09-.986-2.617a2.28 2.28 0 0 0-.725-.26c.114-.558.217-1.273.129-1.904-.126-.9-.73-1.61-1.672-1.67-.42-.028-.86.02-1.232.23a1.674 1.674 0 0 0-1.32-.657C9.44.093 8.996.247 8.652.54 8.314.258 7.87.151 7.435.185Zm5.95 9.647c.265-.67.444-1.38.621-2.087.102-.404.203-.806.32-1.199.103-.344.048-.696-.284-.882-.427-.24-.532.164-.63.539a2.286 2.286 0 0 1-.334.782 41.275 41.275 0 0 1 .204 1.829c.031.325.063.658.102 1.018Zm-1.197-4.717a8.53 8.53 0 0 0 .36-1.153c.124-.567.207-1.145.148-1.561-.027-.195-.066-.368-.282-.382-.352-.022-.467.045-.527.388-.097.555-.122 1.125-.146 1.693-.01.228-.02.456-.034.682.176.087.337.2.48.333Zm-1.981-.584a40.72 40.72 0 0 1 .114-1.635c.008-.23.04-1.297-.373-1.3-.55-.003-.57.665-.568 1.08.002.07.006.144.011.217.01.15.019.303.006.45.048.037.095.077.14.119.311.291.52.672.67 1.069ZM7.849 3.046c0-.116.008-.235.016-.352.013-.207.026-.411.003-.594-.029-.234-.108-.436-.315-.42-.271.022-.402.19-.459.42-.065.267-.031.618-.002.925.01.1.019.197.024.283.22-.128.468-.21.733-.262ZM6.93 8.308a.75.75 0 0 0 .87.594c.58-.105.606-.358.606-.863a60.013 60.013 0 0 0-.49-2.522c-.103-.466-.211-.95.393-1.026.272-.034.418.365.495.572l.008.023c.203.552.286 1.267.331 1.786.07.797.155 1.356.195 1.593.073.44.408.818.897.727.673-.126.608-.77.535-1.28-.038-.27-.088-.67-.132-1.172l-.002-.013c-.026-.302-.053-.608.299-.625.43-.02.619.806.658 1.092.09.648.137 1.154.19 1.711.035.373.073.768.126 1.245.091.813-.266 1.766-.957 2.597-.688.829-1.614 1.422-2.477 1.584-1.146.214-2.565-.054-3.862-.704-1.296-.65-2.362-1.625-2.871-2.701-.161-.34-.161-.674.213-.84.463-.205.654-.035.844.348.26.524.493.978.633 1.25.226.437.6.868 1.148.583.66-.343.33-.99.082-1.477l-.019-.037c-.162-.32-.392-.774-.66-1.311a52.398 52.398 0 0 1-.502-1.05c-.312-.675-.587-1.374-.655-1.94-.036-.302-.041-.662.276-.802.212-.093.36-.117.51.068.21.259.374.711.57 1.317.176.55.354 1.1.533 1.65.135.415.52.737.98.587a.75.75 0 0 0 .48-.946v-.002c-.072-.415-.212-.783-.354-1.159a12.462 12.462 0 0 1-.212-.59c-.184-.574-.342-1.249-.335-1.784v-.004c.003-.209.009-.586.262-.654.226-.061.335.076.444.264.215.369.367.946.51 1.624.145.763.292 1.525.44 2.287Z" clip-rule="evenodd"/></svg></span>
+        <div>
+          <p class="stat-label">Barcelona social activity level</p>
+          <div class="stat-md">Top 10</div>
+          <p class="stat-sub">most engaged chat room on Hostelworld</p>
+        </div>
+      </div>
+      <div class="card-outline fact-nat">
+        <p class="stat-label-strong">Top nationalities</p>
+        <div class="nat-row"><svg class="flag" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="de-c"><circle cx="12" cy="12" r="11.5" fill="#fff"/></mask><g mask="url(#de-c)"><rect x="0" y="1" width="24" height="7.33" fill="#000"/><rect x="0" y="8.33" width="24" height="7.33" fill="#DD0000"/><rect x="0" y="15.66" width="24" height="7.34" fill="#FFCE00"/></g><circle cx="12" cy="12" r="11.5" fill="none" stroke="#DDDFE4"/></svg><span class="nat-name">German</span><span class="nat-pct">34%</span></div>
+        <div class="divider"></div>
+        <div class="nat-row"><svg class="flag" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="11.5" fill="#000066" stroke="#DDDFE4"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6.0834 21.2749C4.53761 20.2867 3.25527 18.9227 2.36523 17.3118L4.17977 18L4.8079 16.0594L5.43133 18L7.33915 17.2781L6.20946 18.9797L7.96258 20.0203L5.9329 20.1938L6.0834 21.2749ZM17.7889 21.3554C17.2447 21.6928 16.6689 21.9841 16.067 22.2238L16.6485 21.8813L16.1563 21.1406L16.986 21.4547L17.2579 20.611L17.5251 21.4547L17.7889 21.3554ZM22.9316 13.234L22.1188 13.3031L22.2407 14.1797L21.6313 13.5375L21.022 14.1797L21.1391 13.3031L20.2579 13.2281L21.022 12.7735L20.5298 12.0375L21.3595 12.3516L21.6313 11.5078L21.9032 12.3516L22.7282 12.0375L22.2407 12.7735L22.9365 13.1901C22.9349 13.2047 22.9333 13.2193 22.9316 13.234ZM17.7501 9.28127L18.6313 9.20627L17.872 8.75627L18.3595 8.01565L17.5251 8.32971L17.2579 7.48596L16.986 8.32971L16.1563 8.01565L16.6485 8.75627L15.8845 9.20627L16.7657 9.28127L16.6532 10.1625L17.2626 9.52034L17.872 10.1625L17.7501 9.28127ZM12.8282 14.6156L13.7095 14.5406L12.9501 14.086L13.4376 13.35L12.6079 13.6641L12.3407 12.8203L12.0688 13.6641L11.2391 13.35L11.7313 14.086L10.9673 14.5406L11.8485 14.6156L11.7313 15.4922L12.3407 14.85L12.9501 15.4922L12.8282 14.6156ZM18.7485 16.9406L19.2313 16.6406L19.7095 16.9453L19.5735 16.3922L20.0048 16.0313L19.4376 15.9844L19.2313 15.4547L19.011 15.9797L18.4485 16.0219L18.8845 16.3875L18.7485 16.9406Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M11.7031 1.00391V1.49998L9.10547 4.12498H11.7031V7.87498H9.15508L11.7031 10.3828V12H10.1328L7.57812 9.48542V12H3.82812V9.44151L1.29688 12H1C1 10.7935 1.19422 9.63246 1.5531 8.54631L2.22084 7.87498H1.79959C2.87541 5.21725 4.95979 3.07568 7.57812 1.92486V2.46369L8.44557 1.58691C9.47158 1.23679 10.5658 1.03404 11.7031 1.00391Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6443 1.08264L7.57645 4.22022V3.09522L9.31499 1.32994C9.74847 1.22121 10.1922 1.13821 10.6443 1.08264ZM1.00439 11.6805L3.8404 8.82346V7.76877L1.0976 10.5271C1.04692 10.9058 1.01551 11.2906 1.00439 11.6805ZM2.13637 7.12495H4.57797V11.9999H6.82797V7.12495H11.703V4.87495H6.82797V2.28916C6.01104 2.72516 5.25558 3.26123 4.57797 3.881V4.87495H3.61896C3.03765 5.55806 2.53837 6.31314 2.13637 7.12495ZM8.56498 7.87758H7.48686L11.703 11.9999V10.9453L8.56498 7.87758Z" fill="#C8102E"/></svg><span class="nat-name">Australian</span><span class="nat-pct">21%</span></div>
+        <div class="divider"></div>
+        <div class="nat-row"><svg class="flag" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="11.5" fill="#012169" stroke="#DDDFE4"/><path d="M21.1451 5.885C20.3007 4.62473 19.2027 3.54868 17.9241 2.72991L15.75 4.92743V1.65576C14.5797 1.2314 13.3169 1 12 1C10.6831 1 9.42032 1.2314 8.25 1.65576V5.23243L5.84762 2.8801C4.5876 3.73179 3.51354 4.83773 2.69907 6.1243L4.85963 8.25001H1.65575C1.2314 9.42033 1 10.6831 1 12C1 13.3169 1.2314 14.5797 1.65576 15.75H5.03543L2.78628 18.0113C3.61461 19.2783 4.69724 20.364 5.9617 21.196L8.25 18.8831V22.3442C9.42032 22.7686 10.6831 23 12 23C13.3169 23 14.5797 22.7686 15.75 22.3442V18.9709L18.0217 21.2069C19.2908 20.3751 20.3776 19.288 21.2089 18.0186L18.9039 15.75H22.3442C22.7686 14.5797 23 13.3169 23 12C23 10.6831 22.7686 9.42033 22.3442 8.25001H18.8047L21.1451 5.885Z" fill="white"/><path d="M8.24615 17.6755V15.5661L4.13997 19.6956C4.48834 20.0514 4.86067 20.3836 5.25435 20.6896L8.24615 17.6755Z" fill="#C8102E"/><path d="M20.7295 18.6936C20.4224 19.0935 20.0885 19.4717 19.7303 19.8255L15.569 15.7567H17.7253L20.7295 18.6936Z" fill="#C8102E"/><path d="M18.6532 3.2395C19.0679 3.55501 19.4597 3.89931 19.8253 4.26942L15.7567 8.43053V6.18053L18.6532 3.2395Z" fill="#C8102E"/><path d="M3.16846 5.44081C3.49643 4.99994 3.85664 4.58448 4.24559 4.1979L8.4014 8.26096H6.01077L3.16846 5.44081Z" fill="#C8102E"/><path d="M9.75 1.23031V9.75001H1.23031C1.07934 10.4763 1 11.2289 1 12C1 12.7711 1.07934 13.5237 1.23031 14.25H9.75V22.7697C10.4763 22.9207 11.2289 23 12 23C12.7711 23 13.5237 22.9207 14.25 22.7697V14.25H22.7697C22.9207 13.5237 23 12.7711 23 12C23 11.2289 22.9207 10.4763 22.7697 9.75001H14.25V1.23031C13.5237 1.07934 12.7711 1 12 1C11.2289 1 10.4763 1.07934 9.75 1.23031Z" fill="#C8102E"/></svg><span class="nat-name">UK</span><span class="nat-pct">18%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAROUSEL: BUSIEST HOSTELS ============ -->
+<section class="carousel-section bg-white">
+  <div class="carousel" data-fade="white">
+    <div class="carousel-head container">
+      <div class="carousel-head-text">
+        <span class="eyebrow">TRENDING THIS WEEK</span>
+        <h2 class="section-title">Top 10 busiest hostels</h2>
+        <p class="section-sub">Based on the number of travellers this week</p>
+      </div>
+      <div class="carousel-nav">
+        <button class="nav-btn nav-prev" aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 8H4M7 4L3 8l4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="nav-btn nav-next" aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <div class="track-wrap">
+      <div class="fade fade-left"></div>
+      <div class="fade fade-right"></div>
+      <div class="track" data-type="hostel"></div>
+    </div>
+    <div class="carousel-foot container">
+      <button class="btn btn-ghost">Show all hostels <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAROUSEL: BEST HOSTELS ============ -->
+<section class="carousel-section bg-white">
+  <div class="carousel" data-fade="white">
+    <div class="carousel-head container">
+      <div class="carousel-head-text">
+        <span class="eyebrow">EDITOR'S PICKS</span>
+        <h2 class="section-title">Best hostels in Barcelona</h2>
+        <p class="section-sub">Rated by our community of social travellers</p>
+      </div>
+      <div class="carousel-nav">
+        <button class="nav-btn nav-prev" aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 8H4M7 4L3 8l4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="nav-btn nav-next" aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <div class="track-wrap">
+      <div class="fade fade-left"></div>
+      <div class="fade fade-right"></div>
+      <div class="track" data-type="best"></div>
+    </div>
+    <div class="carousel-foot container">
+      <button class="btn btn-ghost">Show all hostels <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAROUSEL: FORTHCOMING EVENTS ============ -->
+<section class="carousel-section bg-white">
+  <div class="carousel" data-fade="white">
+    <div class="carousel-head container">
+      <div class="carousel-head-text">
+        <span class="eyebrow">HOSTEL EVENTS</span>
+        <h2 class="section-title">Top 10 forthcoming hostel events</h2>
+        <p class="section-sub">Upcoming social events hosted by Barcelona hostels</p>
+      </div>
+      <div class="carousel-nav">
+        <button class="nav-btn nav-prev" aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 8H4M7 4L3 8l4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="nav-btn nav-next" aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <div class="track-wrap">
+      <div class="fade fade-left"></div>
+      <div class="fade fade-right"></div>
+      <div class="track" data-type="event"></div>
+    </div>
+    <div class="carousel-foot container">
+      <button class="btn btn-ghost">Show all events <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAROUSEL: WHAT'S ON ============ -->
+<section class="carousel-section bg-white">
+  <div class="carousel" data-fade="white">
+    <div class="carousel-head container">
+      <div class="carousel-head-text">
+        <span class="eyebrow">CITY EVENTS</span>
+        <h2 class="section-title">What's on in Barcelona</h2>
+        <p class="section-sub">Festivals, concerts and cultural events happening now</p>
+      </div>
+      <div class="carousel-nav">
+        <button class="nav-btn nav-prev" aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 8H4M7 4L3 8l4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="nav-btn nav-next" aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <div class="track-wrap">
+      <div class="fade fade-left"></div>
+      <div class="fade fade-right"></div>
+      <div class="track" data-type="whatson"></div>
+    </div>
+    <div class="carousel-foot container">
+      <button class="btn btn-ghost">See all events <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M9 4l4 4-4 4" stroke="#121417" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section class="cta-wrap">
+  <div class="container">
+    <div class="cta-card">
+      <img class="cta-dots" src="assets/cta-dots.svg" alt="" aria-hidden="true" />
+      <div class="cta-left">
+        <span class="eyebrow eyebrow-white">HOSTELWORLD APP</span>
+        <h2 class="cta-title">Go from solo to social</h2>
+        <p class="cta-body">Chat with travellers in Barcelona, join hostel events and discover events happening now - all in the Hostelworld app.</p>
+        <div class="store-buttons">
+          <a class="store-badge" href="#" aria-label="Download on the App Store"><img src="assets/app-store.svg" alt="Download on the App Store" /></a>
+          <a class="store-badge" href="#" aria-label="Get it on Google Play"><img src="assets/google-play.svg" alt="Get it on Google Play" /></a>
+        </div>
+        <div class="qr-block">
+          <img class="qr-code" src="assets/qr.svg" alt="QR code to download the Hostelworld app" width="128" height="128" />
+          <span class="qr-label">Scan to download</span>
+        </div>
+      </div>
+      <div class="cta-right">
+        <div class="phone-frame">
+          <img src="assets/f94ac4f3457c615df4b56377793329c220bb4221.png" alt="Hostelworld app" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ + POPULAR CITIES ============ -->
+<section class="faq-section">
+  <div class="container faq-grid">
+    <div class="faq-col">
+      <h2 class="section-title">FAQs</h2>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+    <div class="cities-col">
+      <h2 class="section-title">Popular cities</h2>
+      <div class="city-pills" id="cityPills"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+
+    <!-- Social + language/currency -->
+    <div class="footer-social-row">
+      <div class="footer-follow">
+        <h4 class="footer-title">Follow Us</h4>
+        <div class="social-icons">
+          <a class="social-icon" href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path fill="#fff" d="M16 8a8 8 0 1 0-9.25 7.903v-5.59H4.719V8H6.75V6.238c0-2.005 1.194-3.113 3.022-3.113.875 0 1.79.156 1.79.156V5.25h-1.008c-.994 0-1.304.617-1.304 1.25V8h2.219l-.355 2.313H9.25v5.59A8.002 8.002 0 0 0 16 8Z"/></svg></a>
+          <a class="social-icon" href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path fill="#fff" fill-rule="evenodd" d="M5.114 1.042C5.86 1.008 6.099 1 8 1c1.901 0 2.14.008 2.886.042.745.034 1.254.152 1.7.325.46.18.85.419 1.24.808.388.389.628.78.806 1.24.174.445.292.954.326 1.699.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886-.034.745-.152 1.254-.325 1.7a3.43 3.43 0 0 1-.808 1.24 3.44 3.44 0 0 1-1.24.806c-.445.174-.954.292-1.699.326C10.14 14.992 9.901 15 8 15c-1.901 0-2.14-.008-2.886-.042-.745-.034-1.254-.152-1.7-.325a3.43 3.43 0 0 1-1.24-.808 3.43 3.43 0 0 1-.807-1.24c-.173-.445-.29-.954-.325-1.699C1.008 10.14 1 9.901 1 8c0-1.901.008-2.14.042-2.886.034-.745.152-1.254.325-1.7.18-.46.419-.85.808-1.24.39-.388.78-.628 1.24-.807.445-.173.954-.29 1.699-.325Zm5.715 1.26c-.739-.034-.96-.04-2.829-.04-1.87 0-2.09.006-2.829.04-.682.031-1.053.145-1.3.241-.326.127-.56.279-.804.524a2.169 2.169 0 0 0-.524.805c-.096.246-.21.617-.241 1.3-.034.737-.04.959-.04 2.828 0 1.869.006 2.09.04 2.829.031.682.145 1.053.241 1.3.127.326.279.56.524.804.245.245.478.397.805.524.246.096.617.21 1.3.24.737.035.959.042 2.828.042 1.87 0 2.09-.007 2.829-.041.682-.031 1.053-.145 1.3-.241.326-.127.56-.279.804-.524.245-.245.397-.478.524-.805.096-.246.21-.617.24-1.3.035-.737.042-.959.042-2.828 0-1.87-.007-2.09-.041-2.829-.031-.682-.145-1.053-.241-1.3a2.169 2.169 0 0 0-.524-.804 2.169 2.169 0 0 0-.805-.524c-.246-.096-.617-.21-1.3-.241ZM4.405 8a3.595 3.595 0 1 1 7.19 0 3.595 3.595 0 0 1-7.19 0Zm8.171-3.737a.84.84 0 1 1-1.68 0 .84.84 0 0 1 1.68 0ZM5.666 8a2.333 2.333 0 1 0 4.667 0 2.333 2.333 0 0 0-4.667 0Z" clip-rule="evenodd"/></svg></a>
+          <a class="social-icon" href="#" aria-label="X"><svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path fill="#fff" d="M9.291 6.928 14.345 1h-1.198L8.76 6.147 5.255 1H1.213l5.3 7.784L1.212 15H2.41l4.633-5.436L10.745 15h4.042L9.291 6.928Zm-1.64 1.924-.537-.775L2.842 1.91h1.84l3.447 4.977.537.775 4.482 6.47h-1.84l-3.657-5.28Z"/></svg></a>
+          <a class="social-icon" href="#" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path fill="#fff" fill-rule="evenodd" d="M13.47 3.533a1.726 1.726 0 0 1 1.237 1.199C15 5.788 15 7.994 15 7.994s0 2.205-.293 3.262a1.726 1.726 0 0 1-1.237 1.198c-1.092.284-5.47.284-5.47.284s-4.378 0-5.47-.284a1.726 1.726 0 0 1-1.237-1.198C1 10.2 1 7.994 1 7.994s0-2.206.293-3.262A1.726 1.726 0 0 1 2.53 3.533C3.622 3.25 8 3.25 8 3.25s4.378 0 5.47.283ZM6.568 9.996l3.659-2.002-3.66-2.002v4.004Z" clip-rule="evenodd"/></svg></a>
+          <a class="social-icon" href="#" aria-label="Pinterest"><svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path fill="#fff" d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0Z"/></svg></a>
+          <a class="social-icon" href="#" aria-label="TikTok"><svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path fill="#fff" d="M6.09 12.595c1.246-.002 2.268-.863 2.314-1.95V1h2.761a3.003 3.003 0 0 0 .641 1.855c.703.915 1.925 1.495 3.189 1.495L15 6.74c-1.376.002-2.717-.373-3.835-1.074v4.904C11.159 13.017 8.886 15 6.084 15c-3.145.053-5.928-2.77-4.846-5.77C2 7.118 4.46 5.866 6.768 6.185c0 .821-.005 1.64-.005 2.464-1.012-.275-2.195.11-2.724.988-.86 1.426.469 2.948 2.052 2.96Z"/></svg></a>
+        </div>
+        <div class="footer-selectors">
+          <button class="footer-selector"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="#fff" fill-rule="evenodd" d="M7.969.256c4.276-.164 7.94 2.989 7.776 7.77-.08 2.305-.84 4.284-2.207 5.672-1.374 1.395-3.299 2.127-5.567 2.046-2.24-.08-4.178-.843-5.562-2.206C1.022 12.172.25 10.26.25 8 .25 3.373 3.755.418 7.969.256Zm3.728 2.485a5.94 5.94 0 0 0-1.954-.83c.027.076.05.154.07.233.329 1.376-.4 2.707-1.718 3.118-.298.093-.607.164-.918.234-.653.15-1.311.3-1.873.662-1.153.743.037 1.33.77 1.687l.15.072c.43.209.932.452 1.328.733 1.023.728 1.26 1.99.417 2.961a5.76 5.76 0 0 1-.57.545c-.336.294-.67.587-.874 1a2.63 2.63 0 0 0-.243.848c.54.136 1.122.219 1.742.24 1.74.063 3.143-.44 4.17-1.339.162-.527-.042-.99-.494-1.549a8.225 8.225 0 0 0-.452-.497c-.416-.433-.844-.88-.951-1.466-.183-1.001.293-1.8 1.124-2.32.454-.283.492-.4-.006-.733-.16-.11-.36-.26-.535-.476-.32-.393-.342-.87-.28-1.237.121-.716.551-1.373 1.097-1.886Zm1.139.998a2.99 2.99 0 0 0-.543.639c-.203.32-.27.568.067.789.433.283.826.599 1.025 1.097.12.303.156.634.042.962-.176.501-.633.777-1.065 1.032-.587.347-.746.742-.306 1.243.062.071.143.159.232.257.18.196.398.433.578.654.202.25.412.545.577.88.474-.916.758-2.031.803-3.318.059-1.719-.483-3.168-1.41-4.235ZM8.353 2.493c-.047-.199-.205-.508-.934-.691C4.188 2.175 1.75 4.509 1.75 8c0 1.907.643 3.417 1.712 4.47.398.391.863.727 1.389.998.074-.366.186-.689.33-.978.294-.595.753-1.054 1.249-1.482.36-.311.797-.748.253-1.135-.38-.27-.803-.47-1.225-.67-.53-.25-1.059-.5-1.505-.89-1.187-1.035-.661-2.643.538-3.416.67-.432 1.43-.62 2.19-.807.324-.08.65-.16.967-.26.59-.184.858-.699.705-1.337Z" clip-rule="evenodd"/></svg><span>English</span></button>
+          <button class="footer-selector"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="#fff" fill-rule="evenodd" d="m14.714 1.998-1.85 1.838-1.066-1.057L13.65.942l1.064 1.056ZM11.59.267l-.37 2.205-1.48-.244.37-2.206 1.48.245Zm4.255 5.423-2.221.55-.365-1.455 2.222-.551.364 1.455ZM8.095 16l.001-.001C10.813 15.932 13 13.049 13 9.5 13 5.91 10.761 3 8 3c-.047 0-.095 0-.142.003V3H5C2.239 3 0 5.91 0 9.5S2.239 16 5 16h3.095Zm-5.442-2.818c.629.817 1.39 1.244 2.144 1.31C3.699 13.298 3 11.504 3 9.5c0-2.006.699-3.799 1.797-4.991-.754.065-1.515.492-2.144 1.31C1.967 6.71 1.5 8.006 1.5 9.5c0 1.493.467 2.79 1.153 3.682ZM11.5 9.5c0 1.493-.467 2.79-1.153 3.682C9.662 14.072 8.819 14.5 8 14.5s-1.662-.428-2.347-1.318C4.967 12.289 4.5 10.992 4.5 9.5c0-1.493.467-2.79 1.153-3.682C6.338 4.928 7.181 4.5 8 4.5s1.662.428 2.347 1.318c.686.893 1.153 2.19 1.153 3.682Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M9.25 9.5c0-1.131-.707-1.75-1.25-1.75v-1.5c1.666 0 2.75 1.62 2.75 3.25S9.666 12.75 8 12.75v-1.5c.543 0 1.25-.619 1.25-1.75Z" clip-rule="evenodd"/></svg><span>Euro</span></button>
+        </div>
+      </div>
+
+      <!-- Nav columns -->
+      <nav class="footer-cols">
+        <div class="footer-col">
+          <h4 class="footer-title">Accommodation</h4>
+          <ul><li><a href="#">Hostels</a></li><li><a href="#">Hotels</a></li><li><a href="#">Bed and Breakfast</a></li></ul>
+          <h4 class="footer-title footer-title-spaced">Customer Support</h4>
+          <ul><li><a href="#">Talk to Us</a></li><li><a href="#">Help Center</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul><li><a href="#">Blog</a></li><li><a href="#">Booking Guarantee</a></li><li><a href="#">Hostel Awards</a></li><li><a href="#">Tours and Experiences</a></li><li><a href="#">Solo Travel</a></li><li><a href="#">Student Discount</a></li><li><a href="#">Roamies</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">About Us</h4>
+          <ul><li><a href="#">Hostelworld Group PLC</a></li><li><a href="#">Press</a></li><li><a href="#">Careers</a></li></ul>
+          <h4 class="footer-title footer-title-spaced">Work with Us</h4>
+          <ul><li><a href="#">Hostel Sign Up</a></li><li><a href="#">Affiliate Program</a></li><li><a href="#">Hostelworld Inbox</a></li></ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Partner logos + copyright -->
+    <div class="footer-badges">
+      <span class="footer-badge">🔒 Secure GlobalSign</span>
+      <span class="footer-badge">🌱 Climate Neutral Company</span>
+    </div>
+    <p class="copyright">© 1999–2022 Hostelworld.com Limited</p>
+
+    <!-- Legal row -->
+    <div class="footer-legal">
+      <a href="#">Data Protection Notice</a>
+      <a href="#">Terms &amp; Legal</a>
+      <a href="#">Coupons</a>
+      <a href="#">Vouchers</a>
+      <a href="#">Student Discount</a>
+      <a href="#">Website Testing</a>
+      <a href="#">Site Map</a>
+      <a href="#">Cookie Preferences</a>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
