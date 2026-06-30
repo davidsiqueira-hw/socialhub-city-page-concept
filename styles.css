@@ -139,9 +139,9 @@ a{text-decoration:none; color:inherit;}
 .carousel[data-fade="white"] .fade-right{background:linear-gradient(to left,#fff,transparent);}
 .carousel[data-fade="gray"] .fade-left{background:linear-gradient(to right,var(--gray),transparent);}
 .carousel[data-fade="gray"] .fade-right{background:linear-gradient(to left,var(--gray),transparent);}
-.track{display:flex; gap:16px; overflow-x:auto; padding:0 40px 8px; scrollbar-width:none; -ms-overflow-style:none;}
+.track{display:flex; gap:16px; overflow-x:auto; padding:12px 40px 24px; scrollbar-width:none; -ms-overflow-style:none;}
 .track::-webkit-scrollbar{display:none;}
-@media(max-width:640px){ .track{padding:0 24px 8px;} }
+@media(max-width:640px){ .track{padding:12px 24px 24px;} }
 .carousel-foot{display:flex; justify-content:flex-end; margin-top:16px;}
 .link-btn{display:inline-flex; align-items:center; gap:6px; color:var(--orange); font-weight:700; font-size:14px;}
 .link-btn:hover{text-decoration:underline;}
