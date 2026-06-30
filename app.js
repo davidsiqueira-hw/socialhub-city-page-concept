@@ -68,16 +68,16 @@ const UPCOMING_EVENTS = [
 ];
 
 const WHATS_ON = [
-  { title:"Barcelona Pride Festival", category:"Festival", date:"26 Jun - 18 Jul, 2026", location:"Passeig de Gràcia, Eixample", image:W[0] },
-  { title:"Festa de la Merce", category:"Arts & Culture", date:"15-24 Sep, 2026", location:"Ciutat Vella", image:W[1] },
-  { title:"Dia Nacional de Catalunya", category:"Arts & Culture", date:"11 Sep, 2026", location:"Citywide", image:W[2] },
-  { title:"Gran Gala Flamenco", category:"Music", date:"11 Sep, 2026", location:"Palau de la Música Catalana", image:W[3] },
-  { title:"Primavera Sound", category:"Music", date:"5-7 Jun, 2026", location:"Parc del Fòrum", image:W[4] },
-  { title:"Sonar Festival", category:"Music", date:"19-21 Jun, 2026", location:"Fira de Barcelona", image:W[5] },
-  { title:"Circuit Festival", category:"Festival", date:"3-12 Aug, 2026", location:"Citywide", image:W[6] },
   { title:"Festa Major de Gràcia", category:"Arts & Culture", date:"15-21 Aug, 2026", location:"Carrer de Verdi, Gràcia", image:W[7] },
-  { title:"Arco Barcelona", category:"Arts & Culture", date:"12-16 Feb, 2026", location:"Fira de Barcelona", image:W[8] },
+  { title:"Sonar Festival", category:"Music", date:"19-21 Jun, 2026", location:"Fira de Barcelona", image:W[5] },
   { title:"Carnaval de Barcelona", category:"Festival", date:"28 Feb - 4 Mar, 2026", location:"Citywide", image:W[9] },
+  { title:"Gran Gala Flamenco", category:"Music", date:"11 Sep, 2026", location:"Palau de la Música Catalana", image:W[3] },
+  { title:"Arco Barcelona", category:"Arts & Culture", date:"12-16 Feb, 2026", location:"Fira de Barcelona", image:W[8] },
+  { title:"Barcelona Pride Festival", category:"Festival", date:"26 Jun - 18 Jul, 2026", location:"Passeig de Gràcia, Eixample", image:W[0] },
+  { title:"Primavera Sound", category:"Music", date:"5-7 Jun, 2026", location:"Parc del Fòrum", image:W[4] },
+  { title:"Dia Nacional de Catalunya", category:"Arts & Culture", date:"11 Sep, 2026", location:"Citywide", image:W[2] },
+  { title:"Circuit Festival", category:"Festival", date:"3-12 Aug, 2026", location:"Citywide", image:W[6] },
+  { title:"Festa de la Merce", category:"Arts & Culture", date:"15-24 Sep, 2026", location:"Ciutat Vella", image:W[1] },
 ];
 
 const FAQS = [

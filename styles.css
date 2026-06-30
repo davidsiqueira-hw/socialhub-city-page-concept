@@ -79,7 +79,7 @@ a{text-decoration:none; color:inherit;}
 .event-chip{display:flex; align-items:center; gap:8px; padding:4px 16px; border-radius:24px; white-space:nowrap; background:var(--orange); cursor:pointer; transition:background .2s;}
 .event-chip:hover{background:#CA3B0C;}
 .event-chip .name{color:#fff; font-weight:700; font-size:16px;}
-.event-chip .date{color:#fff; font-size:12px;}
+.event-chip .date{color:#fff; font-size:12px; font-weight:700;}
 .event-dot{width:4px; height:4px; border-radius:50%; background:#fff; align-self:center;}
 
 /* ===== Facts ===== */
