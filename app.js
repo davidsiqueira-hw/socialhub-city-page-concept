@@ -81,8 +81,8 @@ const WHATS_ON = [
 ];
 
 const FAQS = [
-  { q:"What are the best hostels in Barcelona for solo travellers?", a:"Barcelona has a vibrant hostel scene tailored for solo travellers. Kabul Party Hostel, Yeah Hostel Barcelona, and Generator Barcelona consistently rank highest for social atmosphere and organised activities." },
-  { q:"Is Barcelona good for solo travel?", a:"Absolutely. Barcelona is one of Europe's most solo-traveller-friendly cities, with walkable neighbourhoods, a thriving hostel community, and constant events making it easy to meet people." },
+  { q:"What are the best hostels in Barcelona for solo travellers?", a:"Kabul Party Hostel, Yeah Hostel Barcelona and Generator Barcelona top the list for solo travellers — organised activities, and a lobby where people actually talk to each other." },
+  { q:"Is Barcelona good for solo travel?", a:"Yes — easily. Walkable neighbourhoods, a big hostel community and events most nights of the week mean you won't stay a stranger for long." },
   { q:"What is the best time to visit Barcelona as a backpacker?", a:"May–June and September–October offer the best weather without peak summer crowds. Prices are lower and the social scene in hostels is still buzzing." },
   { q:"How safe is Barcelona for solo travellers?", a:"Barcelona is generally safe, though like any large city you should watch out for pickpockets in crowded areas. Stay aware in La Rambla and on the Metro." },
   { q:"Are there free things to do in Barcelona?", a:"Yes — Barceloneta beach, Park Güell (partial access), Bunkers del Carmel sunset views, and many neighbourhood festivals are free or low-cost." },
