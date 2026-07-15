@@ -116,6 +116,10 @@ a{text-decoration:none; color:inherit;}
 .stat-label-strong{font-size:16px; font-weight:700; margin:0 0 8px;}
 .stat-sub{font-size:14px; color:var(--ink); margin:0;}
 .stat-text{display:flex; flex-direction:column; gap:0;}
+.stat-num{font-family:'Poppins',sans-serif; font-weight:700; font-size:40px; line-height:1.1;}
+/* Stat cards: icon top, text pushed to bottom with min 8px gap */
+.fact-card{flex:1 0 0; min-width:200px; display:flex; flex-direction:column; gap:8px;}
+.fact-card .stat-text{margin-top:auto;}
 .fact-big{flex:1 0 0; min-width:300px; padding:24px; display:flex; flex-direction:column; gap:8px;}
 .fact-big .stat-text{margin-top:auto;}
 .fact-big-top{display:flex; align-items:flex-start; justify-content:space-between;}
@@ -133,7 +137,7 @@ a{text-decoration:none; color:inherit;}
 .fact-col-top .card-outline .stat-text{margin-top:auto;}
 .card-row{display:flex; flex-wrap:wrap; gap:16px; align-items:center;}
 .fact-activity{flex:1 0 0; min-width:120px;}
-.fact-nat{flex:1 0 0; min-width:280px; display:flex; flex-direction:column; gap:8px;}
+.fact-nat{flex:1 0 0; min-width:200px; display:flex; flex-direction:column; gap:8px;}
 .nat-row{display:flex; align-items:center; gap:8px;}
 .nat-name{flex:1; font-size:16px;}
 .nat-pct{font-weight:700;}
